@@ -69,7 +69,7 @@
         </div>
         <div class="mb-3">
           <label class="form-label">Tahun Terbit</label>
-          <input type="number" class="form-control" name="tahun">
+          <input type="text" class="form-control" name="tahun" placeholder="Opsional">
         </div>
         <div class="mb-3">
           <label class="form-label">Jumlah Buku</label>
@@ -109,7 +109,7 @@
         judul: form.judul.value.trim(),
         penulis: form.penulis.value.trim(),
         penerbit: form.penerbit.value.trim(),
-        tahun: form.tahun.value.trim(),
+        tahun: form.tahun.value.trim(),  // boleh kosong
         jumlah: form.jumlah.value.trim(),
         kategori: form.kategori.value
       };
