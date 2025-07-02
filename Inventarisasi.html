@@ -70,6 +70,10 @@
           <input type="text" class="form-control" name="tahun" required>
         </div>
         <div class="mb-3">
+          <label class="form-label">Jumlah Buku</label>
+          <input type="text" class="form-control" name="jumlah" required>
+        </div>
+        <div class="mb-3">
           <label class="form-label">Kategori DDC</label>
           <select class="form-select" name="kategori" required>
             <option value="" disabled selected>Pilih Kategori</option>
@@ -104,6 +108,7 @@
         penulis: form.penulis.value,
         penerbit: form.penerbit.value,
         tahun: form.tahun.value,
+        jumlah: jumlah.tahun.value,
         kategori: form.kategori.value
       };
 
